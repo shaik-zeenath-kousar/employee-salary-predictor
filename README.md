@@ -6,8 +6,7 @@
 
 ## 📸 Live Preview
 
-![App Preview](<img width="1028" height="694" alt="image" src="https://github.com/user-attachments/assets/5e8bb201-3222-4a14-8b96-d045f2dee1e4" />
-)
+![App Preview](C:\Users\ZEENATH KOUSAR\Downloads\{527369F7-649B-4E2E-8D3D-4D3D1AEA67AF}.png>)
 
 ---
 
