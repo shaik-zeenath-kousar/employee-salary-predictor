@@ -114,7 +114,7 @@ User fills out a form with:
 🔄 Change the Port (Optional)
 -If you want to run the app on a different port, modify the last line of app.py:
 
-app.run(debug=True, port=8080)
+**app.run(debug=True, port=8080)**
 
 
 
@@ -125,7 +125,7 @@ app.run(debug=True, port=8080)
 🧪 Train the Model (Optional)
 -To train or update the model with new data:
 
-python trainmodel.py
+**py trainmodel.py**
 
 
 
