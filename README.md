@@ -24,14 +24,32 @@
 ## 📁 Project Structure
 
 employee-salary-predictor/
+
+
 ├── app.py # Flask server and routing
+
+
 ├── model.pkl # Trained ML model for prediction
+
+
 ├── trainmodel.py # Script to train and save the model
+
+
 ├── salary.csv # Dataset used for training
+
+
 ├── templates/
+
+
 │ └── index.html # HTML form page
+
+
 ├── static/
+
+
 │ └── style.css # CSS styling
+
+
 └── README.md # Project overview and instructions
 
 
