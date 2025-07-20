@@ -6,7 +6,7 @@
 
 ## 📸 Live Preview
 
-![App Preview](C:\Users\ZEENATH KOUSAR\Downloads\{527369F7-649B-4E2E-8D3D-4D3D1AEA67AF}.png>)
+![App Preview]([C:\Users\ZEENATH KOUSAR\Downloads\{527369F7-649B-4E2E-8D3D-4D3D1AEA67AF}.png>](https://drive.google.com/file/d/1PyPQSyFd0LMdJ51dELOViFd5wHPlQS_Z/view?usp=sharing))
 
 ---
 
