@@ -34,9 +34,6 @@ employee-salary-predictor/
 │ └── style.css # CSS styling
 └── README.md # Project overview and instructions
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -55,35 +52,31 @@ Edit
 - Python 3.10+
 - pip (Python package manager)
 
+---
+
 ### 📦 Install Requirements
 
 Install all required dependencies using pip:
 
-bash
-Copy
-Edit
+
 pip install flask pandas scikit-learn
 ▶️ Run the Application
 Start the Flask server by running:
 
-bash
-Copy
-Edit
-python app.py
+py app.py
 Then, open your browser and navigate to:
 
 👉 http://127.0.0.1:8080/predict
 
+---
+
 🔁 How It Works
 User fills out a form with:
 
-Name
-
-Age
-
-Role
-
-Years of Experience
+💠Name
+💠Age
+💠Role
+💠Years of Experience
 
 The form data is sent to the backend via Flask.
 
@@ -91,32 +84,29 @@ A pre-trained machine learning model (model.pkl) processes the input and predict
 
 The predicted salary is shown below the form in green with a ₹ symbol.
 
+---
+
 🔄 Change the Port (Optional)
 If you want to run the app on a different port, modify the last line of app.py:
 
-python
-Copy
-Edit
 app.run(debug=True, port=8080)
 Replace 8080 with any available port of your choice (e.g., 5000, 3000, etc.).
+
+---
 
 🧪 Train the Model (Optional)
 To train or update the model with new data:
 
-bash
-Copy
-Edit
 python trainmodel.py
 Ensure that salary.csv is formatted like this:
 
-csv
-Copy
-Edit
 Name,Age,Role,Experience,Salary
 John,30,Developer,5,50000
 Alice,28,Designer,3,40000
 Bob,35,Manager,8,70000
 After running the training script, a new model.pkl file will be generated.
+
+---
 
 🙋‍♀️ About the Author
 Made with 💖 by Zeenath Kousar Shaik
