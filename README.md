@@ -6,7 +6,8 @@
 
 ## 📸 Live Preview
 
-![App Preview](link-to-screenshot-if-you-have-one)
+![App Preview](<img width="1028" height="694" alt="image" src="https://github.com/user-attachments/assets/5e8bb201-3222-4a14-8b96-d045f2dee1e4" />
+)
 
 ---
 
@@ -152,5 +153,5 @@ After running the training script, a new model.pkl file will be generated.
 
 Made with 💖 by **Zeenath Kousar Shaik**
 
-🔗 LinkedIn • 🌐 GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/zeenath-kousar-shaik-642742323/) • 🌐 [GitHub](https://github.com/shaik-zeenath-kousar)
 
