@@ -1,27 +1,23 @@
 # 💼 Employee Salary Predictor 🔮
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey?logo=flask)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> 🔎 A smart web app that predicts employee salaries based on Age, Role, and Experience using Machine Learning!
+> A smart web app that predicts employee salaries based on **Age**, **Role**, and **Experience** using **Machine Learning**.
 
 ---
 
 ## 📸 Live Preview
 
-<img src="preview.png" alt="App Preview" width="700"/>
+![App Preview](link-to-screenshot-if-you-have-one)
 
 ---
 
 ## 🧠 Features
 
-✨ Clean, user-friendly interface  
-📊 ML model for salary prediction  
-📥 Form inputs: Name, Age, Role, Experience  
-⚡ Instant result display  
-🌐 Fully responsive design  
-🧩 Easy to integrate and extend  
+- ✨ Clean, user-friendly interface
+- 📊 Salary prediction using ML model
+- 📥 Form inputs: Name, Age, Role, Experience
+- ⚡ Instant salary prediction display
+- 🌐 Fully responsive design
+- 🧩 Easy to integrate, customize, and extend
 
 ---
 
@@ -29,20 +25,25 @@
 
 employee-salary-predictor/
 ├── app.py # Flask server and routing
-├── model.pkl # Trained salary prediction ML model
-├── trainmodel.py # Script to train and export the model
-├── salary.csv # Dataset for training
+├── model.pkl # Trained ML model for prediction
+├── trainmodel.py # Script to train and save the model
+├── salary.csv # Dataset used for training
 ├── templates/
-│ └── index.html # Frontend HTML form
+│ └── index.html # HTML form page
 ├── static/
-│ └── style.css # Styling for the form
+│ └── style.css # CSS styling
 └── README.md # Project overview and instructions
 
+yaml
+Copy
+Edit
+
+---
 
 ## ⚙️ Tech Stack
 
-| Frontend     | Backend     | ML/Model     |
-|--------------|-------------|--------------|
+| Frontend     | Backend       | ML/Model            |
+|--------------|---------------|---------------------|
 | HTML5, CSS3  | Python, Flask | scikit-learn, pandas |
 
 ---
@@ -54,21 +55,16 @@ employee-salary-predictor/
 - Python 3.10+
 - pip (Python package manager)
 
-📦 Install Requirements
-Install the required Python packages:
+### 📦 Install Requirements
 
-bash
-Copy
-Edit
+```bash
 pip install flask pandas scikit-learn
 ▶️ Run the App
-Start the Flask app by running:
-
 bash
 Copy
 Edit
 python app.py
-Once running, open your browser and go to:
+Open your browser and go to:
 
 👉 http://127.0.0.1:8080/predict
 
@@ -83,42 +79,38 @@ Role
 
 Years of Experience
 
-Flask sends the input to the ML model.
+Flask sends this input to the ML model.
 
-Model predicts the salary using the trained .pkl file.
+The model predicts the salary using the trained model.pkl.
 
 The predicted salary is displayed below the form in green with a ₹ symbol.
 
 🔄 Change the Port (Optional)
-To change the default port, update the last line of app.py:
+To change the port, modify the last line of app.py:
 
 python
 Copy
 Edit
 app.run(debug=True, port=8080)
-You can replace 8080 with any other available port.
+Replace 8080 with your desired port number.
 
 🧪 Train the Model (Optional)
-To retrain or update the machine learning model with new data:
+To retrain the model with new data:
 
 bash
 Copy
 Edit
 python trainmodel.py
-Ensure your salary.csv file has the following structure:
+Make sure your salary.csv follows this format:
 
-c
+cs
 Copy
 Edit
 Name,Age,Role,Experience,Salary
 John,30,Developer,5,50000
 Alice,28,Designer,3,40000
 Bob,35,Manager,8,70000
-The model will be saved as model.pkl after training.
-
-
-
-
+A new model.pkl file will be generated.
 
 🙋‍♀️ About the Author
 Made with 💖 by Zeenath Kousar Shaik
