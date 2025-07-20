@@ -75,7 +75,8 @@ pip install flask pandas scikit-learn
 
 -Start the Flask server by running:
 
-py app.py
+**py app.py**
+
 Then, open your browser and navigate to:
 
 👉 http://127.0.0.1:8080/predict
@@ -86,8 +87,11 @@ Then, open your browser and navigate to:
 User fills out a form with:
 
 💠Name
+
 💠Age
+
 💠Role
+
 💠Years of Experience
 
 
@@ -146,7 +150,7 @@ After running the training script, a new model.pkl file will be generated.
 
 🙋‍♀️ About the Author
 
-Made with 💖 by Zeenath Kousar Shaik
+Made with 💖 by **Zeenath Kousar Shaik**
 
 🔗 LinkedIn • 🌐 GitHub
 
