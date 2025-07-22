@@ -6,6 +6,8 @@
 
 ## 📸 Live Preview
 
+![App Preview](screenshot1.png)
+
 ![App Preview](screenshot.png)
 
 ---
