@@ -8,6 +8,8 @@
 
 ![App Preview](screenshot1.png)
 
+After entering details of the Employee then Click on Predict Salary to get Estimated Salary in the output.
+
 ![App Preview](screenshot.png)
 
 ---
