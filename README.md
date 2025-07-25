@@ -1,4 +1,4 @@
-# 💼 Employee Salary Predictor 🔮
+# 💼 Employee Salary Prediction 🔮
 
 > A smart web app that predicts employee salaries based on **Age**, **Role**, and **Experience** using **Machine Learning**.
 
